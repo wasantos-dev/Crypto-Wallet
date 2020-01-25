@@ -1,5 +1,9 @@
 {
   "name": "crypto_wallet",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Wagner Cavalcante Santos wacavalcantes@gmail.com",
+  "license": "MIT"
 }
