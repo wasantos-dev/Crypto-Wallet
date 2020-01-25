@@ -1,16 +1,8 @@
-<p>
-	<%= link_to 'Português', root_path(locale: 'pt-BR') %>
-</p>
-<p>
-	<%= link_to 'English', root_path(locale: 'en') %>
-</p>
-
-<h1>Seja Bem-vindo</h1>
-<p> O idioma do nosso aplicativo é:<%= t('actual_locale') %> </p>
-<p><strong>Data:</strong> <%= l(Date.today) %></p>
-
-<%= render 'menu' %>
-
-<p>
-	Meu nome é <%= @meu_nome %>
-</p>
+<div class="jumbotron">
+  <h1 class="display-4"><%= t('welcome.title') %></h1>
+  <p class="lead"><%= t('welcome.message') %></p>
+  <hr class="my-4">
+  <p><%= t('welcome.select') %></p>
+   <%= render 'menu' %>
+  </p>
+</div>
